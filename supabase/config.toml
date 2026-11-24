@@ -1,0 +1,18 @@
+# Configuration Supabase CLI (développement local et déploiement des fonctions).
+project_id = "coran-app"
+
+[auth]
+site_url = "https://VOTRE-COMPTE.github.io/coran-app/"
+additional_redirect_urls = ["http://localhost:5173/", "coranapp://auth-callback"]
+enable_signup = true
+
+[auth.email]
+enable_confirmations = true
+double_confirm_changes = true
+
+# Les webhooks reçoivent des appels de Stripe/RevenueCat, sans jeton Supabase :
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.revenuecat-webhook]
+verify_jwt = false

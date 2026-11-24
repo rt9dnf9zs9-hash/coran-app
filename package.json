@@ -1,0 +1,27 @@
+{
+  "name": "coran-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Application d'apprentissage de l'arabe coranique pour francophones (web PWA + mobile Expo + Supabase)",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "pnpm -r --if-present test",
+    "test:core": "node --import tsx --test packages/core/test/*.test.ts packages/content/test/*.test.ts supabase/functions/_shared/test/*.test.ts",
+    "test:db": "bash scripts/test-db.sh",
+    "seed": "tsx packages/content/src/generate-seed.ts",
+    "dev:web": "pnpm --filter @coran/web dev",
+    "build:web": "pnpm --filter @coran/web build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test:e2e": "node apps/web/e2e/build-offline.mjs /tmp/webtest && node --import tsx --test apps/web/e2e/app.e2e.test.ts",
+    "import:quran": "tsx scripts/import-tanzil.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "esbuild": "^0.24.0",
+    "playwright": "^1.48.0"
+  }
+}
