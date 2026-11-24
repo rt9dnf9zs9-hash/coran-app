@@ -1,0 +1,119 @@
+cle;chemin_storage_suggere;lecons
+letter:alif;letter/alif.m4a;m1l1
+letter:ayn;letter/ayn.m4a;m1l5 m1-test
+letter:ba;letter/ba.m4a;m1l1 m1-test
+letter:dad;letter/dad.m4a;m1l4
+letter:dal;letter/dal.m4a;m1l3
+letter:dhal;letter/dhal.m4a;m1l3
+letter:fa;letter/fa.m4a;m1l6
+letter:ghayn;letter/ghayn.m4a;m1l5
+letter:ha;letter/ha.m4a;m1l7 m1-test
+letter:hha;letter/hha.m4a;m1l2
+letter:jim;letter/jim.m4a;m1l2
+letter:kaf;letter/kaf.m4a;m1l6
+letter:kha;letter/kha.m4a;m1l2 exam-free
+letter:lam;letter/lam.m4a;m1l6
+letter:mim;letter/mim.m4a;m1l7 m1-test
+letter:nun;letter/nun.m4a;m1l7
+letter:qaf;letter/qaf.m4a;m1l6 exam-free
+letter:ra;letter/ra.m4a;m1l3
+letter:sad;letter/sad.m4a;m1l4
+letter:shin;letter/shin.m4a;m1l4
+letter:sin;letter/sin.m4a;m1l4 exam-free
+letter:ta;letter/ta.m4a;m1l1
+letter:tha;letter/tha.m4a;m1l1
+letter:tta;letter/tta.m4a;m1l5
+letter:waw;letter/waw.m4a;m1l7
+letter:ya;letter/ya.m4a;m1l7
+letter:zay;letter/zay.m4a;m1l3
+letter:zza;letter/zza.m4a;m1l5
+syll:ba-a;syll/ba-a.m4a;m3l1 m3-test
+syll:ba-i;syll/ba-i.m4a;m3l2 exam-free
+syll:ba-u;syll/ba-u.m4a;m3l3 m3-test
+syll:dal-i;syll/dal-i.m4a;m3l2
+syll:fa-i;syll/fa-i.m4a;m3l2
+syll:ha-u;syll/ha-u.m4a;m3l3
+syll:jim-u;syll/jim-u.m4a;m3l3
+syll:kaf-a;syll/kaf-a.m4a;m3l1
+syll:kaf-i;syll/kaf-i.m4a;m3l3 m3-test
+syll:lam-i;syll/lam-i.m4a;m3l2 m3-test
+syll:mim-a;syll/mim-a.m4a;m3l1
+syll:nun-i;syll/nun-i.m4a;m3l2 m3-test
+syll:qaf-u;syll/qaf-u.m4a;m3l3
+syll:ra-u;syll/ra-u.m4a;m3l3 exam-free
+syll:sin-a;syll/sin-a.m4a;m3l1 m3-test
+syll:ta-a;syll/ta-a.m4a;m3l1 m3l2 exam-free
+word:abada;word/abada.m4a;m5l5
+word:abd;word/abd.m4a;m4l2 m4-test
+word:adhab;word/adhab.m4a;m5l5 m5-test
+word:ala;word/ala.m4a;m2l4
+word:alim;word/alim.m4a;m5l1
+word:alima;word/alima.m4a;m5l6
+word:alkitab;word/alkitab.m4a;m4l5 m4-test
+word:allah;word/allah.m4a;m5l1
+word:alqalb;word/alqalb.m4a;m4l5
+word:alqamar;word/alqamar.m4a;m3l8 exam-free
+word:amana;word/amana.m4a;m5l2 m5-test exam-free
+word:amila;word/amila.m4a;m5l3
+word:amr;word/amr.m4a;m5l6
+word:annur;word/annur.m4a;m4l5 exam-free
+word:ard;word/ard.m4a;m5l4 m5-test
+word:arrahma;word/arrahma.m4a;m4l5 m4-test
+word:ashshams;word/ashshams.m4a;m3l8 m3-test
+word:aya;word/aya.m4a;m5l2
+word:darasa;word/darasa.m4a;m2l3
+word:dhahaba;word/dhahaba.m4a;m4l1 m4-test
+word:dhikr;word/dhikr.m4a;m5l3
+word:din;word/din.m4a;m3l7 m3-test m5l2 m5-test
+word:hal;word/hal.m4a;m4l2
+word:hamd;word/hamd.m4a;m5l1
+word:haqq;word/haqq.m4a;m5l2
+word:hudan;word/hudan.m4a;m5l2
+word:ilm;word/ilm.m4a;m5l6
+word:ilmun;word/ilmun.m4a;m4l4 m4-test
+word:inna;word/inna.m4a;m3l5 m3-test
+word:jaala;word/jaala.m4a;m5l4
+word:jalasa;word/jalasa.m4a;m4l1 exam-free
+word:janna;word/janna.m4a;m5l5
+word:jannatun;word/jannatun.m4a;m4l4
+word:kabir;word/kabir.m4a;m4l3
+word:kafara;word/kafara.m4a;m5l2
+word:kana;word/kana.m4a;m5l6
+word:kataba;word/kataba.m4a;m4l1 m4-test m5l6
+word:katib;word/katib.m4a;m5l6
+word:khalaqa;word/khalaqa.m4a;m4l1 m5l4
+word:kitab;word/kitab.m4a;m4l3 m4-test m5l2
+word:kitaban;word/kitaban.m4a;m3l6 m3-test
+word:kitabin;word/kitabin.m4a;m3l6 m3-test exam-free
+word:kitabun;word/kitabun.m4a;m3l6
+word:la;word/la.m4a;m2l4
+word:lam;word/lam.m4a;m3l4
+word:ma;word/ma.m4a;m5l4
+word:min;word/min.m4a;m3l4 m3-test exam-free
+word:nafs;word/nafs.m4a;m5l3
+word:nar;word/nar.m4a;m5l5
+word:nur;word/nur.m4a;m3l7
+word:qala;word/qala.m4a;m3l7 m5l6
+word:qalb;word/qalb.m4a;m4l2 m5l3 m5-test exam-free
+word:qawm;word/qawm.m4a;m5l3
+word:qul;word/qul.m4a;m3l4 m3-test
+word:rabb;word/rabb.m4a;m3l5 m5l1 m5-test exam-free
+word:rabbun;word/rabbun.m4a;m4l4 m4-test exam-free
+word:rahim;word/rahim.m4a;m5l1
+word:rahma;word/rahma.m4a;m2l4
+word:rahman;word/rahman.m4a;m5l1
+word:rasul;word/rasul.m4a;m4l3 m5l2 exam-free
+word:sabara;word/sabara.m4a;m5l3
+word:sabil;word/sabil.m4a;m5l5
+word:salah;word/salah.m4a;m5l5 m5-test exam-free
+word:sam;word/sam.m4a;m4l3 m4-test
+word:sama;word/sama.m4a;m5l4
+word:sami;word/sami.m4a;m4l3
+word:sawfayaktubu;word/sawfayaktubu.m4a;m6l5
+word:sayaktubu;word/sayaktubu.m4a;m6l5
+word:shams;word/shams.m4a;m4l2 m4-test
+word:shay;word/shay.m4a;m5l4 m5-test exam-free
+word:thumma;word/thumma.m4a;m3l5
+word:yadhhabu;word/yadhhabu.m4a;m6l4
+word:yajlisu;word/yajlisu.m4a;m6l4
+word:yawm;word/yawm.m4a;m5l4
