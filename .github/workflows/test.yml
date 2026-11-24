@@ -1,0 +1,30 @@
+# Tests automatiques à chaque modification : logique, contenu, sécurité de la base, navigateur.
+name: Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: pnpm install --frozen-lockfile=false
+      - name: Tests unitaires
+        run: pnpm test:core
+      - name: Contenu à jour
+        run: pnpm seed && git diff --exit-code -- supabase/seed.sql || (echo "Le seed n’est pas à jour : lancez « pnpm seed »." && exit 1)
+      - name: Migrations + tests de sécurité RLS (PostgreSQL local)
+        run: bash scripts/test-db.sh
+      - name: Tests navigateur (mode découverte)
+        run: |
+          pnpm --filter @coran/web exec playwright install --with-deps chromium
+          node apps/web/e2e/build-offline.mjs /tmp/webtest
+          (cd /tmp/webtest && python3 -m http.server 4173 &) && sleep 1
+          node --import tsx --test apps/web/e2e/app.e2e.test.ts
