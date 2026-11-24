@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": { "@coran/core": ["../../packages/core/src/index.ts"] }
+  },
+  "include": ["src", "../../packages/core/src"]
+}
